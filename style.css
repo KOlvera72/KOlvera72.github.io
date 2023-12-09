@@ -1,8 +1,10 @@
 /* Barra de navegacion */
-
+/**{
+  background-color: #eff1e3;
+}*/
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #eff1e3;
 }
 
 .navbar-collapse {
@@ -21,25 +23,27 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  /*font-family: 'Rubik Dirt', cursive;*/
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Rubik Dirt', cursive;
+  font-family: 'Raleway', sans-serif;*/
+  font-family: 'Mina', sans-serif;
 }
 
 .seccion-oscura {
-  color: white;
-  background-color: #5a75c5;
+  color: #eff1e3;
+  background-color: #376d7c;
 }
 
 .seccion-clara {
   color: black;
-  background-color: white;
+  background-color: #eff1e3;
 }
 
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
-  /*font-family: 'Rubik Dirt', cursive;*/
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Rubik Dirt', cursive;
+  font-family: 'Raleway', sans-serif;*/
+  font-family: 'Mina', sans-serif;
 }
 
 .seccion-descripcion {
@@ -54,13 +58,13 @@ h1 {
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
-  background-color: #0052a8;
+  background-color: #376d7c;
   border: none;
 }
 
 .btn-info:hover{
   
-  background-color: #a9a2e5;
+  background-color: #b7c7b6;
   
 }
 
@@ -75,7 +79,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color: #eff1e3;
   min-height: 450px;
   text-align: center;
 }
@@ -85,10 +89,8 @@ h1 {
 }
 
 .hero-imagen-desarrollador {
+  height: auto;
   width: 200px;
-  height: 200px;
-  margin: 20px;
-  
 }
 
 .hero-principal h2 {
@@ -122,16 +124,17 @@ h1 {
   align-items: center;
   justify-content: space-evenly;
   transition: all 0.2s ease-in;
+  border-radius: 7px;
 }
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #0052a8;
+  background-color: #376d7c;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #ead5ff;
+  color: #b7c7b6;
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
@@ -151,7 +154,7 @@ h1 {
 
 .badge {
   margin: 5px;
-  background-color: #a9a2e5;
+  background-color: #b7c7b6;
 }
 
 /* Proyectos */
@@ -208,7 +211,7 @@ h1 {
 }
 
 .overlay i {
-  color: #0052a8;
+  color: #376d7c;
   font-size: 60px;
   margin: 10px;
 
@@ -275,11 +278,12 @@ h1 {
   max-width: 1100px;
   min-height: 200px;
   padding: 20px;
+  color: #0a0a23;
 }
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #b7c7b6;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -291,14 +295,14 @@ h1 {
 }
 
 .contacto .descripcion {
-  color: white;
+  color: black;
   font-size: 1.2rem;
 }
 
 .contacto button {
   color: white;
   font-weight: bold;
-  background-color: transparent;
+  background-color: #376d7c;
   border: 2px solid white;
   padding: 1.25em 2em;
   margin: 10px;
@@ -308,7 +312,7 @@ h1 {
 
 .contacto button:hover {
   background-color: white;
-  color: black;
+  color: #376d7c;
 }
 
 .contacto button i {
@@ -318,7 +322,7 @@ h1 {
 }
 
 .contacto button:hover i {
-  color: black;
+  color: #376d7c;
 }
 
 /* Pie de pagina (footer) */
@@ -337,7 +341,7 @@ footer {
   font-size: 1.5rem;
   padding: 20px;
   margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Mina', sans-serif;
 }
 
 .iconos-redes-sociales a {
@@ -361,11 +365,11 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid #0052a8;
+  border: 2px solid #376d7c;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: #0052a8;
+  color: #376d7c;
 }
 
 .derechos-de-autor {
@@ -405,6 +409,6 @@ footer {
 
 @media screen and (min-width: 700px) {
   .hero-inferior-imagen {
-    max-width: 600px;
+    max-width: 700px;
   }
 }
